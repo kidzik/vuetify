@@ -218,6 +218,7 @@ export const VImg = genericComponent<VImgSlots>()({
           ref={ image }
           onLoad={ onLoad }
           onError={ onError }
+          crossorigin="anonymous"
         />
       )
 
